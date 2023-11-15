@@ -21,4 +21,16 @@ if ( !function_exists( 'child_theme_configurator_css' ) ):
 endif;
 add_action( 'wp_enqueue_scripts', 'child_theme_configurator_css', 10 );
 
+add_filter( 'wp_nav_menu_items', 'add_extra_item_to_nav_menu', 10, 2 );
+function add_extra_item_to_nav_menu( $items, $args ) {
+
+    if (is_user_logged_in() && $args->menu ==="en-tete") {
+        $admin_link = '<li id="adminlink" class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu"><a class="hfe-menu-item" href="'. admin_url() .'">Admin</a></li>';
+        $items_array = explode( '</li>', $items );
+        array_splice( $items_array, 1, 0, $admin_link );
+        $items = implode( '</li>', $items_array );
+    }
+    
+    return $items;}
+
 // END ENQUEUE PARENT ACTION

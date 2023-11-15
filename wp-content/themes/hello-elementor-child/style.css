@@ -28,12 +28,33 @@ Updated: 2023-10-17 10:02:07
     width: 100%;
 }
 
+
+.ff-t-column-1{
+    border-right: 1px solid white;
+    padding-right: 15px; /* new */
+}
+
 .elementor-element-cc2a2d3{
     padding: 0px;
 }
 
+.elementor-element-ea63465{
+    border-right: 1px solid white;
+    margin-bottom: -40px;
+    padding-right: 20px;
+}
 
-#menu-item-299{
+@media (max-width: 768px) /* new */
+{
+    .ff-t-column-1, .elementor-element-ea63465{
+    border-right: 0 !important;
+    padding-left: 0px;
+    padding-right: 0px;
+    }
+}
+
+
+#menu-item-299, #adminlink{
     padding-top: 15px;
     padding-right: 90px;
 }
@@ -53,3 +74,16 @@ Updated: 2023-10-17 10:02:07
 .elementor-element-24fdde7 h2{
     margin-top: 150px;
 }
+
+
+.ff-t-column-1{
+    border-right: 1px solid white;
+
+}
+
+
+
+.elementor-element-9590d0b h2{
+    margin-top: 20px;
+}
+
