@@ -12,7 +12,7 @@ Updated: 2023-10-17 10:02:07
 */
 
 
-
+/* BOUTON COMMANDER HEADER */
 #menu-item-24 a{
     background-color: #DC9F96;
     color: white;
@@ -20,30 +20,50 @@ Updated: 2023-10-17 10:02:07
     padding-bottom: 30px;
     padding-left: 60px;
     padding-right: 60px;
-
 }
+/* FIN */
 
+
+/* MENU */
 .elementor-element-e8f18ef{
     padding: 0px;
     width: 100%;
 }
+/* FIN MENU */
 
 
-.ff-t-column-1{
-    border-right: 1px solid white;
-    padding-right: 15px; /* new */
-}
-
+/* HEADER */
 .elementor-element-cc2a2d3{
     padding: 0px;
 }
+/* FIN */
 
-.elementor-element-ea63465{
-    border-right: 1px solid white;
-    margin-bottom: -40px;
-    padding-right: 20px;
+
+/* NOUS RENCONTRER ET ADMIN */
+#menu-item-299, #adminlink{
+    padding-top: 15px;
+    padding-right: 90px;
 }
+/* FIN */
 
+
+/* LOGO  */
+.elementor-element-5ae8df5{
+    width: 550px;
+    padding-top: 25px;
+    padding-left: 30px;
+}
+/* FIN LOGO */
+
+
+/* NOUS RENCONTRER */
+.elementor-element-f0b542d{
+    margin-top: 150px;
+}
+/* FIN */
+
+
+/* COLONNE ET TITRE DE GAUCHE - FORMULAIRE DE COMMANDE */
 @media (max-width: 768px) /* new */
 {
     .ff-t-column-1, .elementor-element-ea63465{
@@ -52,38 +72,28 @@ Updated: 2023-10-17 10:02:07
     padding-right: 0px;
     }
 }
+/* FIN */
 
 
-#menu-item-299, #adminlink{
-    padding-top: 15px;
-    padding-right: 90px;
+/* COLONNE GAUCHE */
+.ff-t-column-1{
+    border-right: 1px solid white;
+    padding-right: 15px;
 }
+/* FIN */
 
-.elementor-element-5ae8df5{
-    width: 550px;
-    padding-top: 25px;
-    padding-left: 30px;
+
+/* VOS INFORMATIONS */
+.elementor-element-ea63465{
+    border-right: 1px solid white;
+    margin-bottom: -40px;
+    padding-right: 20px;
 }
+/* FIN */
 
 
+/* FOOTER */
 .elementor-element-1aef6f1{
     padding: 0px;
 }
-
-
-.elementor-element-24fdde7 h2{
-    margin-top: 150px;
-}
-
-
-.ff-t-column-1{
-    border-right: 1px solid white;
-
-}
-
-
-
-.elementor-element-9590d0b h2{
-    margin-top: 20px;
-}
-
+/* FIN FOOTER */
